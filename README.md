@@ -6,12 +6,20 @@ Homebrew tap for the [Forthwith CLI](https://forthwith.dev) — the translation 
 
 You need a Forthwith account to use this CLI. [Sign up at forthwith.dev](https://forthwith.dev) before getting started.
 
-## Usage
+## Installation
+
+```bash
+brew install Forthwith-LLC/forthwith/forthwith
+```
+
+If you prefer to add the tap first, this works too:
 
 ```bash
 brew tap Forthwith-LLC/forthwith
 brew install forthwith
 ```
+
+Use the formula install path for this CLI. Do not use `brew install --cask forthwith`.
 
 ## Updating
 
