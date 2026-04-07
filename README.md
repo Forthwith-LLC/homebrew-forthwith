@@ -19,8 +19,6 @@ brew tap Forthwith-LLC/forthwith
 brew install forthwith
 ```
 
-Use the formula install path for this CLI. Do not use `brew install --cask forthwith`.
-
 ## Updating
 
 ```bash
