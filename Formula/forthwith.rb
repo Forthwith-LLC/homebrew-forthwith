@@ -6,24 +6,24 @@ class Forthwith < Formula
   on_macos do
     on_arm do
       url "https://github.com/Forthwith-LLC/forthwith-releases/releases/download/v#{version}/forthwith_#{version}_darwin_arm64.tar.gz"
-      sha256 "92e43874896f805e3e61c7760e1269f3de6f7547686e07e848ac41395159359f"
+      sha256 "582b180975ac0ad331f4b0447951e08368f34f1553e92087247e13cb9a7370f1"
     end
 
     on_intel do
       url "https://github.com/Forthwith-LLC/forthwith-releases/releases/download/v#{version}/forthwith_#{version}_darwin_amd64.tar.gz"
-      sha256 "d82469e61aa9d5b7c4e4edaf81f1dbf16da07ace30f9fb2d1c0e754c77601342"
+      sha256 "ba94535855d6ca3026200bf70e4a308feb5f1c518e397deae7b3f71b3b26c8e9"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Forthwith-LLC/forthwith-releases/releases/download/v#{version}/forthwith_#{version}_linux_arm64.tar.gz"
-      sha256 "00e2a608474d7b6c64b76a9c049e45113ab3100c890602b67afe5132eabaf592"
+      sha256 "55946863a5fe30b2fa1631b04a702f5836410b9603e68788f17ebb8c292c6c74"
     end
 
     on_intel do
       url "https://github.com/Forthwith-LLC/forthwith-releases/releases/download/v#{version}/forthwith_#{version}_linux_amd64.tar.gz"
-      sha256 "148c0aa78df6ad6b562b48ab8721f0d29326d6b37a57709791f23eea6c24a2d4"
+      sha256 "42caf7bc3f0e064e03838309018c73f5d7c42b9f2e2b3202cae635266777bd85"
     end
   end
 
